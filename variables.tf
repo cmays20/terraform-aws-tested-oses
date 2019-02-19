@@ -159,6 +159,23 @@ variable "aws_ami" {
     coreos_1576.5.0_ap-south-1     = "ami-f0f5a19f"
     coreos_1576.5.0_sa-east-1      = "ami-053b7969"
 
+    # CoreOS 1632.3.0
+    coreos_1632.3.0_ap-south-1     = "ami-991845f6"
+    coreos_1632.3.0_eu-west-3      = "ami-1f9d2b62"
+    coreos_1632.3.0_eu-west-2      = "ami-3e0eeb59"
+    coreos_1632.3.0_eu-west-1      = "ami-a61464df"
+    coreos_1632.3.0_ap-northeast-2 = "ami-1455f77a"
+    coreos_1632.3.0_ap-northeast-1 = "ami-884835ee"
+    coreos_1632.3.0_sa-east-1      = "ami-022d646e"
+    coreos_1632.3.0_ca-central-1   = "ami-9e7cf8fa"
+    coreos_1632.3.0_ap-southeast-1 = "ami-b9c280c5"
+    coreos_1632.3.0_ap-southeast-2 = "ami-04be7b66"
+    coreos_1632.3.0_eu-central-1   = "ami-862140e9"
+    coreos_1632.3.0_us-east-1      = "ami-3f061b45"
+    coreos_1632.3.0_us-east-2      = "ami-85ffcbe0"
+    coreos_1632.3.0_us-west-1      = "ami-cc0900ac"
+    coreos_1632.3.0_us-west-2      = "ami-692faf11"
+
     # CoreOS 1855.5.0
     coreos_1855.5.0_ap-northeast-1 = "ami-0a8c6be5f87b35dd4"
     coreos_1855.5.0_ap-northeast-2 = "ami-0cac5781f008b2bda"
@@ -191,5 +208,22 @@ variable "aws_ami" {
     rhel_7.3_us-east-2      = "ami-11aa8c74"
     rhel_7.3_us-west-1      = "ami-e69ebc86"
     rhel_7.3_us-west-2      = "ami-b55a51cc"
+
+    # RHEL 7.6
+    rhel_7.6_ap-south-1     = "ami-0d49e4ede96fa736a"
+    rhel_7.6_eu-west-3      = "ami-0477e9a4cc95712e2"
+    rhel_7.6_eu-west-2      = "ami-0411c57c35317c207"
+    rhel_7.6_eu-west-1      = "ami-0b55d6fb8cb847926"
+    rhel_7.6_ap-northeast-2 = "ami-063e3f34265b0856f"
+    rhel_7.6_ap-northeast-1 = "ami-05555f985af973005"
+    rhel_7.6_sa-east-1      = "ami-0f383a038e46ad864"
+    rhel_7.6_ca-central-1   = "ami-032ce4648448d5809"
+    rhel_7.6_ap-southeast-1 = "ami-0af9271eb94137eca"
+    rhel_7.6_ap-southeast-2 = "ami-068f4807abc434f1a"
+    rhel_7.6_eu-central-1   = "ami-0813c13822009a842"
+    rhel_7.6_us-east-1      = "ami-05e13d377ab1838e4"
+    rhel_7.6_us-east-2      = "ami-006b2db4ca7e39d7d"
+    rhel_7.6_us-west-1      = "ami-063d5b1a32b3bb43f"
+    rhel_7.6_us-west-2      = "ami-0301fe4c5f34e405b"
   }
 }
